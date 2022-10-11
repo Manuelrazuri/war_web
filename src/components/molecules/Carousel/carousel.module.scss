@@ -1,0 +1,26 @@
+.firstSlide {
+  width: 100%;
+  background: skyblue;
+  display: flex;
+  align-items: center;
+  &__left {
+    width: 20%;
+    height: auto;
+  }
+  &__rigth {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__buttonTop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__buttonBot {
+    width: 80%;
+    height: auto;
+    display: flex;
+  }
+}

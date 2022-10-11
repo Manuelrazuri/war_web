@@ -1,0 +1,66 @@
+.containerInformation {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  &__whoisWar {
+    background-image: url("/image/information/backgroundInfor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  &__infoWar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    & p {
+      width: 60%;
+    }
+  }
+  &__facherito {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  &__playVideo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & p {
+      width: 60%;
+    }
+  }
+  &__functionality {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  &__register {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    & p {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__microChip {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
