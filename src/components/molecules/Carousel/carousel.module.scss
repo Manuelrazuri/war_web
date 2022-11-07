@@ -23,4 +23,9 @@
     height: auto;
     display: flex;
   }
+  &__balls {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 }

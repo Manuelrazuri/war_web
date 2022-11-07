@@ -6,6 +6,7 @@ import { Autoplay, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { TypeButton } from "../../atoms/TypeButton/TypeButton";
 
 export const Carousel = () => {
   return (
@@ -33,31 +34,26 @@ export const Carousel = () => {
             </div>
             <div className={classes.firstSlide__rigth}>
               <div className={classes.firstSlide__buttonTop}>
-                <Image
-                  src="/image/Carousel/typeButton.png"
-                  alt="Botones arriba"
-                  width={700}
-                  height={200}
-                />
+                <TypeButton />
               </div>
               <div className={classes.firstSlide__buttonBot}>
                 <div>
                   <Image
-                    scr="/image/Carousel/dbsBills.png"
+                    src="/image/Carousel/dbsBills.png"
                     alt="Bills-DragonBallSuper"
                     width={500}
                     height={500}
                   />
                 </div>
-                <div>
+                <div className={classes.firstSlide__balls}>
                   <Image
-                    scr="/image/Carousel/ballDog.png"
+                    src="/image/Carousel/ballDog.png"
                     alt="Bills-DragonBallSuper"
                     width={500}
                     height={500}
                   />
                   <Image
-                    scr="/image/Carousel/ballCat.png"
+                    src="/image/Carousel/ballCat.png"
                     alt="Bills-DragonBallSuper"
                     width={500}
                     height={500}
